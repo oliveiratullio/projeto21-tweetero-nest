@@ -11,8 +11,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppService = void 0;
 const common_1 = require("@nestjs/common");
-const tweets_entity_1 = require("./entities/tweets.entity");
 const user_entity_1 = require("./entities/user.entity");
+const tweets_entity_1 = require("./entities/tweets.entity");
 let AppService = exports.AppService = class AppService {
     constructor() {
         this.users = [];

@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { CreateTweetDto } from 'src/dtos/tweet.dto';
 import { CreateUserDto } from 'src/dtos/user.dto';
-import { Tweet } from 'src/entities/tweets.entity';
-import { User } from 'src/entities/user.entity';
+import { User } from './entities/user.entity';
+import { Tweet } from './entities/tweets.entity';
 
 @Injectable()
 export class AppService {

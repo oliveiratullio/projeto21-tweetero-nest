@@ -1,7 +1,7 @@
 import { CreateTweetDto } from 'src/dtos/tweet.dto';
 import { CreateUserDto } from 'src/dtos/user.dto';
-import { Tweet } from 'src/entities/tweets.entity';
-import { User } from 'src/entities/user.entity';
+import { User } from './entities/user.entity';
+import { Tweet } from './entities/tweets.entity';
 export declare class AppService {
     private users;
     private tweets;
